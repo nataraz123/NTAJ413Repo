@@ -1,0 +1,7 @@
+SQL> create table person_info(pid number(5) primary key,pname varchar2(15),fname varchar2(15),ms varchar2(8),info1 varchar2(20),info2 varchar2(20));
+
+Table created.
+
+SQL> create sequence pid_Seq start with 1 increment by 1;
+
+Sequence created.
